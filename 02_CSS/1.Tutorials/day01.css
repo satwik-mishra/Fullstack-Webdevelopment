@@ -1,0 +1,44 @@
+ /* CSS = Cascading style sheets */
+h1
+{
+    background-color: pink;
+}
+h2
+{
+    background-color: aquamarine;
+}
+#excercise 
+{
+    background-color: brown;
+    color: white;
+}
+#veg-list
+{
+    color: black;
+    background-color: pink;
+    border: 2px solid black;
+}
+#non-veg-list
+{
+    color: black;
+    background-color: orange;
+    border: 2px solid black;
+}
+.third
+{
+    background-color:darksalmon;
+}
+.third, #veg-list, h1
+{
+    background-color: yellow;
+    /* this is group based selection */
+} 
+h1
+{
+    font-size: 40px;
+} 
+li
+{
+     font-size: 1em; /*child's size will be with respect to its parent */
+}
+
